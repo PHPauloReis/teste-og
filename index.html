@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head id="head">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplicação de Exemplo</title>
+
+
+    <script>
+
+        const meta = document.createElement('meta')
+        meta.setAttribute('name', 'og:description')
+        meta.setAttribute('content', 'Vamos ver se isso vai dar certo!')
+
+        const head = document.getElementById('head')
+        head.appendChild(meta)
+
+    </script>
+
 </head>
 <body>
 
